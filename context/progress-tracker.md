@@ -4,23 +4,24 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Phase 1 — Design system foundation
+- Phase 2 — Editor chrome
 
 ## Current Goal
 
-- Configure shadcn/ui, establish the dark theme tokens, and add the specified UI primitives.
+- Editor chrome (`02-editor`) is complete and verified.
 
 ## Completed
 
-- None yet.
+- Design system foundation (`01-design-system`): dark theme tokens and UI primitives.
+- Editor chrome (`02-editor`): reusable navbar, floating project sidebar, and verified dialog pattern.
 
 ## In Progress
 
-- Design system and UI primitive components (`01-design-system`).
+- None.
 
 ## Next Up
 
-- Implement the next feature specification after the design system is verified.
+- Implement the next feature specification.
 
 ## Open Questions
 
@@ -32,5 +33,6 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Session Notes
 
-- Design-system implementation is in progress.
+- The dialog primitive already provides the specified title, description, and footer pattern using theme tokens.
+- Editor navbar and project sidebar compile cleanly and pass lint.
 - Added a workspace CSS setting to suppress the false-positive Tailwind `@theme` diagnostic.
